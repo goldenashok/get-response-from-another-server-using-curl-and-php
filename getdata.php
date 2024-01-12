@@ -1,5 +1,5 @@
 <?php
-	$apiurl = '<Domain>'.'/test1.php';
+	$apiurl = '<Domain>'.'/getdata-response.php';
 	$ch = curl_init();
   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
